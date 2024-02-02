@@ -1,0 +1,11 @@
+How to start minikube
+
+Install docker and start docker
+Install kubectl 
+Install minikube
+
+Run these commands with as ubuntu or ec2-user
+
+sudo usermod -aG docker $USER
+newgrp docker
+minikube start --vm-driver docker
